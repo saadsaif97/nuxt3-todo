@@ -1,6 +1,6 @@
 <template>
-  <div class="grid min-h-screen justify-center py-12">
-    <div class="w-96 flex flex-col gap-2">
+  <div class="grid justify-center grid-cols-1 py-12 max-w-xl mx-auto">
+    <div class="w-full flex flex-col gap-2 shadow-md bg-slate-50 p-12">
       <todo-form class="mb-12"/>
       <todo-list />
     </div>
